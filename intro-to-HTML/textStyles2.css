@@ -1,0 +1,35 @@
+
+p {
+    font-family: Arial;
+    color: black;
+    line-height: 8px;
+    font-size: 18px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.header {
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+.header-handle {
+    color: gray;
+    font-weight: 500;
+}
+
+.post {
+    width: 630px;
+    margin-bottom: 15px;
+    line-height: 25px;
+}
+
+.post-handle {
+    color: rgb(116, 162, 231);
+}
+
+.post-handle:hover {
+    cursor: pointer;
+}
+
+
