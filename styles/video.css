@@ -1,6 +1,5 @@
 .ultimate-grid {
-    margin-left: 274px;
-    margin-top: 25px;
+    margin: 8px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     column-gap: 17px;
