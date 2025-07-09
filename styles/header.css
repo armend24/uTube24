@@ -1,9 +1,8 @@
 .header {
+    width: 1362.89px;
     display: flex;
-    flex-direction: row;
-    height: 56px;
-    border-style: solid;
     justify-content:space-between;
+    height: 56px;
     padding: 0px 16px;
 }
 
@@ -11,8 +10,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: lightblue;
-    width: 169px;
+    max-width: 169px;
 }
 
 .hamburger-menu {
@@ -29,27 +27,30 @@
 }
 
 .header-middle {
-    background-color: lightcoral;
     display: flex;
     flex: 1;
     align-items: center;
-    margin-left: 60px;
+    margin-left: 40px;
     margin-right: 40px;
-    max-width: 536px;
-/*  margin-left: 26px; */
+    max-width: 648px;
 }
 
 .search-bar {
     flex: 1;
-    width: 515.2px;
-    height: 38.4px;
+    height: 38.2px;
     padding: 0px 4px 0px 16px;
     border-width: 0.8px;
+    margin-left: 32px;
     border-style: solid;
+    box-shadow: inset 0px 0px 2px 1px rgba(0, 0, 0, 0.08);   
     border-top-left-radius: 40px;
     border-bottom-left-radius: 40px;
     border-color: rgb(204, 204, 204);
 }
+
+/* .search-bar :active {
+} */
+
 .search-bar input {
     height: 24px;
 }
@@ -60,7 +61,7 @@
     border-top-right-radius: 40px;
     border-bottom-right-radius: 40px;
     border-width: 0.8px;
-    border-style: solid;    
+    border-style: solid; 
     border-color: rgb(204, 204, 204);
     padding: 5px 6px 1px 15px;
     margin-left: -1px;
@@ -72,10 +73,77 @@
     margin-right: 10px;
 }
 
-.header-right {
-    background-color: lightgreen;
-    width: 225px;
+.voice-search-button {
+    padding: 8px;
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(240, 240, 240);
+    margin-left: 20px;
 }
 
+.voice-search-image {
+    border-radius: 20px;
+}
 
+.header-right {
+    max-width: 225px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 12px;
+}
 
+.create-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 18px;
+    width: 97.17px;
+    height: 36px;
+    border: none;;
+    background-color: rgb(240, 240, 240);
+    font-size: 14px;
+}
+.plus-icon {
+    height: 26px;
+    width: 26px;
+    padding: 5px 0px;
+    margin-right: 4px;
+}
+
+.create-text {
+    font-weight: 500;
+    padding-right: 4px;
+}
+
+.bell-button {
+    height: 40px;
+    width: 40px;
+    padding-top: 3.1px;
+    border: none;
+    margin-left: 7px;
+    margin-right: 8px;
+    background-color: white;
+}
+
+.bell-image {
+    height: 24px;
+    width: 24px;
+    padding-top: 4px;
+}
+
+.channel-button {
+    height: 40px;
+    width: 60px;
+    padding: 4.87px 6px 1px 6px;
+    border: none; 
+    background-color: white;
+}
+
+.channel-image {
+    height: 32px;
+    width: 32px;
+    border-radius: 16px;
+}
