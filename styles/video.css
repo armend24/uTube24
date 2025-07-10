@@ -1,5 +1,6 @@
 .ultimate-grid {
     margin: 8px;
+    margin-left: 240px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     column-gap: 17px;
@@ -8,8 +9,8 @@
 
 .thumbnail-container img {
     width: 100%;
+    min-width: 276.5px;
     height: 200px;
-    object-fit: cover;
     border-radius: 15px;
     margin-bottom: 6px;
 }
