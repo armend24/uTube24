@@ -6,16 +6,34 @@
     
 }
 
-/* .video-card {
-    width: 368.25px;
-} */
+.thumbnail-container {
+    position: relative;
 
-.thumbnail-container img {
+}
+
+.thumbnail {
     width: 100%;
     min-width: 276.5px;
     height: 222.14px;
     border-radius: 15px;
     margin-bottom: 6px;
+}
+
+.timer {
+    display: flex;
+    position: absolute;
+    bottom: 18.5px;
+    right: 8.5px;
+    border-radius: 5px;
+    background-color: rgba(19, 19, 19, 0.7);
+}
+
+.timer p {
+    font-size: 13px;
+    color: white;
+    margin: 0px;
+    padding: 3px 5px;
+    font-weight: 500;
 }
 
 .video-info-grid {
