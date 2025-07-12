@@ -2,7 +2,9 @@
     font-family: Roboto, Arial, sans-serif;
 }
 
-.body {
-    margin: 0px;
+body {
     padding: 0px;
+    padding-top: 58px;
+    padding-left: 253px;
+    padding-right: 18px;
 }
